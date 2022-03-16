@@ -12,3 +12,15 @@ CREATE TABLE spoon_sugar (
   recipe Text,
   recipe_sugar INT
 );
+
+-- Create Joint Table with Sugar and sodium Cols (do not use here, use panda read in)
+
+-- CREATE TABLE spoon_sodium_sugar (
+--   id INT PRIMARY KEY,
+--   spoonacular_recipe_id INT,
+--   recipe Text,
+--   recipe_sugar INT,
+--   recipe_sodium INT
+-- );
+
+SELECT * FROM spoonacular_sodium_sugar
