@@ -1,3 +1,5 @@
+SELECT * FROM spoonacular_sodium_sugar
+
 -- Create Tables with Sodium Col
 CREATE TABLE spoon_sodium (
   id INT PRIMARY KEY,
@@ -23,4 +25,5 @@ CREATE TABLE spoon_sugar (
 --   recipe_sodium INT
 -- );
 
-SELECT * FROM spoonacular_sodium_sugar
+
+
